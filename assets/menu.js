@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',function(){var b=document.querySelector('.mobile-menu-toggle'),n=document.querySelector('.main-nav');if(b&&n){b.addEventListener('click',function(){var opened=n.classList.toggle('is-open');b.setAttribute('aria-expanded',String(opened));b.textContent=opened?'✕':'☰';});}});
